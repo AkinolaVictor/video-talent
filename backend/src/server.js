@@ -9,7 +9,6 @@ const path = require("path")
 const app = express()
 const __dirnamex = path.resolve()
 const {PORT, NODE_ENV} = process.env
-// console.log(env)
 
 app.get("/health", (req, res)=>{
     res.status(200).json({msg: "Success from API"})
