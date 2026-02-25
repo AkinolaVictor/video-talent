@@ -13,7 +13,7 @@
     "dev_2": "npm run dev --prefix frontend && npm run dev --prefix backend",
     "dev": "concurrently \"npm run dev --prefix frontend\" \"npm run dev --prefix backend\"",
 
-    "git": "git add . && git commit -m 'added-vercel_json' && git push videoapp master"
+    "git": "git add . && git commit -m 'added-vercel_json_for_output' && git push videoapp master"
   },
   "keywords": [],
   "author": "",
