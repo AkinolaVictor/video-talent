@@ -12,9 +12,6 @@
     "dev": "concurrently \"npm run dev --prefix frontend\" \"npm run dev --prefix backend\"",
     "git": "git add . && git commit -m 'merged-both-endss' && git push videoapp master"
   },
-  "engines": {
-    "node": ">=23.0.0"
-  },
   "keywords": [],
   "author": "",
   "license": "ISC",
