@@ -1,10 +1,11 @@
 {
-  "name": "talent-iq",
+  "name": "Video_Calling_Interview",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
     "build": "npm install --prefix backend && npm install --prefix frontend && npm run build --prefix frontend",
     "start": "npm run start --prefix backend",
+    
     "kickstart": "npm install --prefix backend && npm install --prefix frontend",
     "onlybuild": "npm run build --prefix frontend",
     "dev_2": "npm run dev --prefix frontend && npm run dev --prefix backend",
