@@ -9,7 +9,11 @@
     "kickstart": "npm install --prefix backend && npm install --prefix frontend",
     "onlybuild": "npm run build --prefix frontend",
     "dev_2": "npm run dev --prefix frontend && npm run dev --prefix backend",
-    "dev": "concurrently \"npm run dev --prefix frontend\" \"npm run dev --prefix backend\""
+    "dev": "concurrently \"npm run dev --prefix frontend\" \"npm run dev --prefix backend\"",
+    "git": "git add . && git commit -m 'merged-both-endss' && git push videoapp master"
+  },
+  "engines": {
+    "node": ">=22.0.0"
   },
   "keywords": [],
   "author": "",
